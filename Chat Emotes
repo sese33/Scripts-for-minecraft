@@ -1,0 +1,28 @@
+###############################################
+#             Chat emotes                     #
+#           Copyright© By sese33              #
+###############################################
+
+on chat:
+	replace all "<3" in message with "&c❤"
+	replace all "plane" in message with "✈"
+	replace all "mark" in message with "✔"
+	replace all "music" in message with "♫"
+	replace all "copyright" in message with "©"
+	replace all "dead" in message with "☠"
+	replace all "king" in message with "♛"
+	replace all "tm" in message with "™"
+
+command /emotes:
+	trigger:
+		message "&8&m-----------------"
+		message "&e<3 &7= &f❤&7"
+		message "&eletadlo &7= &f✈"
+		message "&efajivka &7= &f✔"
+		message "&emusic &7= &f♫"
+		message "&ecopyright &7= &f©"
+		message "&edead &7= &f☠"
+		message "&eking &7= &f♛"
+		message "&etm &7= &f™"
+		message "&8&m-----------------"
+	
